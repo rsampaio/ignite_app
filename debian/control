@@ -1,0 +1,13 @@
+Source: ignite-app
+Section: php
+Priority: extra
+Maintainer: unknown <ubuntu@unknown>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.9.2
+Homepage: http://homepage.com
+
+Package: ignite-app
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, nginx|apache2-mpm-worker, php5-cgi, php5-mysql
+Description: <insert up to 60 chars description>
+ <insert long description, indented with spaces>
